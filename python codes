@@ -1,0 +1,31 @@
+# Acc
+
+import biosig
+import json
+HDR1 = json.loads(biosig.header("/Users/cieunlee/Desktop/Acc_01.GDF"))
+DATA1 = biosig.data("/Users/cieunlee/Desktop/Acc_01.GDF")
+HDR1
+
+# GPS
+
+import biosig
+import json
+HDR2 = json.loads(biosig.header("/Users/cieunlee/Desktop/GPS_01.GDF"))  
+DATA2 = biosig.data("/Users/cieunlee/Desktop/GPS_01.GDF")
+HDR2
+
+# gravity
+
+import biosig
+import json
+HDR3 = json.loads(biosig.header("/Users/cieunlee/Desktop/gravity_01.GDF"))   
+DATA3 = biosig.data("/Users/cieunlee/Desktop/gravity_01.GDF")
+HDR3
+
+# Gyroscope
+
+import biosig
+import json
+HDR4 = json.loads(biosig.header("/Users/cieunlee/Desktop/Gyroscope_01.GDF"))   
+DATA4 = biosig.data("/Users/cieunlee/Desktop/Gyroscope_01.GDF")
+HDR4
